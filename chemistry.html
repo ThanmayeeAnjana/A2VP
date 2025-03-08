@@ -1,0 +1,1170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Periodic Table</title>
+    
+<body style="background-color: white; color: black;">
+    <h1 style="text-align: center;color:black;font-size: 100px;font-style: italic;font-weight: bold;font-family: ALGERIAN;">Periodic Table</h1>
+    <style>
+        .legend {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            color: black;
+        }
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+        .color-box {
+            width: 20px;
+            height: 20px;
+            display: inline-block;
+            border: 1px solid black;
+        }
+        .alkali { background-color: #ffe3b9; } /* Yellow */
+        .alkaline-earth { background-color: #ffcc79; } /* Light Salmon */
+        .transition { background-color: #d3c5e6; } /* Light Blue */
+        .other-metals { background-color: #ffced4; } /* Light Gray */
+        .nonmetals { background-color: #ffae93; } /* Light Pink */
+        .halogens { background-color: #a5d6a9; } /* Light Green */
+        .noble-gases { background-color: #d58ebd; } /* Sky Blue */
+        .rare-earth { background-color: #e8ed9d; } /* Plum */
+        .actinoid { background-color: #b8eeff; } /* Orange Red */
+    </style>
+<center>
+    <table >
+        <tr>
+            <td>
+                <div class="legend-item"><div class="color-box alkali"></div> Alkali metals</div>
+            </td>
+        <td>
+            <div class="legend-item"><div class="color-box alkaline-earth"></div> Alkaline-earth metals<br></div>
+        </td>
+        <td>
+            <div class="legend-item"><div class="color-box transition"></div> Transition metals<br></div>
+        </td>
+    </tr>
+        <tr>
+            <td>
+                <div class="legend-item"><div class="color-box other-metals"></div> Other metals<br></div>
+            </td>
+        <td>
+            <div class="legend-item"><div class="color-box nonmetals"></div> Other nonmetals<br></div>
+        </td>
+        <td>
+            <div class="legend-item"><div class="color-box halogens"></div> Halogens<br></div>
+        </td>
+    </tr>
+        <tr>
+            <td>
+                <div class="legend-item"><div class="color-box noble-gases"></div> Noble gases<br></div>
+            </td>
+        <td>
+            <div class="legend-item"><div class="color-box rare-earth"></div> Rare-earth elements<br></div>
+        </td>
+        <td>
+            <div class="legend-item"><div class="color-box actinoid"></div> Actinoid elements<br></div>
+        </td>
+    </tr>
+    </table>
+    </center>
+    <center>
+        <table style="width: 1000px; margin-top: 200px; text-align: center;">
+            <tr>
+             <td>
+               <a href="h.html">
+                  <button style="background-color: #ffa78f;padding-left: 8px;padding-right: 8px;color: black;cursor: pointer;">
+                 1 <br>
+                 <strong>H</strong> <br>
+                 Hydrogen
+               </button>
+               </a>
+             </td>
+             <td style="empty-cells: hide;" colspan="16"></td>
+             <td>
+               <a href="he.html">
+               <button style="background-color: #d58ebd; padding-left: 21px;padding-right: 21px;color:black;cursor: pointer;">
+                 2 <br>
+                 <strong>He</strong> <br>
+                 Helium
+               </button>
+            </a>
+             </td>
+            </tr>
+            <tr>
+             <td>
+               <a href="li.html">
+                  <button style="background-color: #ffe3b1;padding-left: 15px;padding-right: 15px;color:black;cursor: pointer;">
+                3 <br>
+                <strong>Li</strong> <br>
+                Lithium
+                </button>
+                </a>
+               </td>
+             <td >
+                <a>
+                    <button style="background-color: #ffcc79;padding-left: 15px;padding-right: 15px;color:black;cursor: pointer;">
+                4<br>
+                <strong>Be</strong><br>
+                Berillium<br>
+                </button>
+                </a>
+            </td>
+            <td style="empty-cells: hide;" colspan="10"> </td>
+             <td>
+                <a>
+                    <button style="background-color: #ffae93; padding-left: 19px;padding-right: 19px;color:black;cursor: pointer;">
+                5<br>
+                <strong>B</strong><br>
+                Boron<br>
+                </button>
+                </a>
+             </td>
+             <td>
+                <a>
+                    <button style="background-color: #ffae93; padding-left: 19px;padding-right: 19px;color:black;cursor: pointer;">
+                6<br>
+                <strong>C</strong><br>
+                Carbon<br>
+                    </button>
+                    </a>
+             </td>
+             <td >
+                <a>
+                    <button style="background-color: #ffae93;padding-left: 19px;padding-right: 19px;color:black;cursor: pointer;">
+                7<br>
+                <strong>N</strong><br>
+                Nitrogen<br>
+                    </button>
+                </a>
+             </td>
+             <td>
+                <a>
+                    <button style="background-color: #ffae93; padding-left: 19px;padding-right: 19px;color:black;cursor: pointer;">
+                8<br>
+                <strong>O</strong><br>
+                Oxygen<br>
+                </button>
+                </a>
+             </td>
+             <td>
+                <a>
+             <button style="background-color: #a5d6a9;padding-left: 24px;padding-right: 24px;color: black;cursor: pointer;">
+                9<br>
+                <strong>F</strong><br>
+                Florine
+             </button>
+             </a>
+             </td>
+             <td>
+                <a>
+                 <button style="background-color: #d58ebd;padding-left: 26px;padding-right: 26px;color: black;cursor: pointer;">
+                10<br>
+                <strong>Ne</strong><br>
+                Neon<br>
+                 </button>
+                </a>
+             </td>
+             
+            </tr>
+            <tr>
+                <td >
+                    <a>
+                        <button style="background-color: #ffe3b1;padding-left: 15px;padding-right: 15px;color: black;cursor: pointer;">
+                    11<br>
+                    <strong>Na</strong><br>
+                    Sodium<br>
+                        </button>
+                    </a>
+                 </td>
+             <td >
+                <a>
+                    <button style="background-color: #ffcc79;padding-left: 6px;padding-right: 6px;color: black;cursor: pointer;">
+                12<br>
+                <strong>Mg</strong><br>
+                Magnesium<br>
+                    </button>
+                </a>
+             </td>
+             <td style="empty-cells: hide;" colspan="10"></td>
+            
+             <td>
+                <a>
+                    <button style="background-color: #ffced4;padding-left: 6px;padding-right: 6px;color: black;cursor: pointer;">
+                13<br>
+                <strong>Al</strong><br>
+                Aluminium
+                    </button>
+                </a>
+             </td>
+             <td>
+                <a>
+                    <button style="background-color: #ffae93;padding-left: 20px;padding-right: 20px;color: black;cursor: pointer;">
+                14<br>
+                <strong>Si</strong><br>
+                Silicon<br>
+                    </button>
+                </a>
+             </td>
+             <td >
+                <a>
+                    <button style="background-color: #ffae93; padding-left: 8px;padding-right: 8px;color: black;cursor: pointer;">
+                15<br>
+                <strong>P</strong><br>
+                Phosphorus<br>
+                    </button>
+                </a>
+            </td>
+             <td >
+                <a>
+                    <button style="background-color: #ffae93;padding-left: 19px;padding-right: 19px;color: black;cursor: pointer; ">
+                16<br>
+                <strong>S</strong><br>
+                Sulphur<br>
+                    </button>
+                </a>
+             </td>
+             <td>
+                <a>
+                    <button  style="background-color: #a5d6a9; padding-left: 20px;padding-right: 20px;color: black;cursor: pointer;">
+                17<br>
+                <strong>Cl</strong><br>
+                Chlorine<br>
+                    </button>
+                </a>
+             </td>
+             <td>
+                <a>
+                    <button style="background-color: #d58ebd;padding-left: 24px;padding-right: 24px;color: black;cursor: pointer;">
+                18<br>
+                <strong>Ar</strong><br>
+                Argon<br>
+                    </button>
+                </a>
+             </td>
+            </tr>
+            <tr>
+                <td >
+                    <a>
+                        <button style="background-color: #ffe3b1;padding-left: 8px;padding-right: 8px;color: black;cursor: pointer;">
+                    19<br>
+                    <strong>K</strong><br>
+                    Potissium<br>
+                        </button>
+                    </a>
+                 </td>
+                 <td >
+                    <a>
+                        <button style="background-color: #ffcc79;padding-left: 19px;padding-right: 19px;color: black;cursor: pointer;">
+                    20<br>
+                    <strong>Ca</strong><br>
+                    Calium<br>
+                        </button>
+                    </a>
+                 </td>
+             <td >
+                <a>
+                    <button style="background-color: #e8ed9d;padding-left: 10px;padding-right: 10px;color: black;cursor: pointer;">
+                21<br>
+                <strong>Sc</strong><br>
+                Scandium<br>
+                    </button>
+                </a>
+             </td>
+             <td >
+                <a>
+                    <button style="background-color: #d3c5e6;padding-left: 22px;padding-right: 22px;color: black;cursor: pointer;">
+                22<br>
+                <strong>Ti</strong><br>
+                Titanium<br>
+                    </button>
+                </a>
+             </td>
+             <td >
+                <a>
+                    <button style="background-color: #d3c5e6;padding-left: 10px;padding-right: 10px;color: black;cursor: pointer;">
+                23<br>
+                <strong>V</strong><br>
+                Vanadium<br>
+                    </button>
+                </a>
+             </td>
+             <td >
+                <a>
+                    <button style="background-color: #d3c5e6;padding-left: 14px;padding-right: 14px;color: black;cursor: pointer;">
+                24<br>
+                <strong>Cr</strong><br>
+               Chromium<br>
+                    </button>
+                </a>
+             </td>
+             <td >
+                <a>
+                    <button style="background-color: #d3c5e6;color: black;cursor: pointer;">
+                25<br>
+                <strong>Mn</strong><br>
+                Manganese<br>
+                    </button>
+                </a>
+
+             </td>
+             <td>
+                <a>
+                    <button style="background-color: #d3c5e6;padding-left: 26px;padding-right: 26px;color: black;cursor: pointer;">
+                26<br>
+                <strong>Fe</strong><br>
+                Iron<br>
+                    </button>
+                </a>
+             </td>
+             <td>
+             <a> 
+                <button style="background-color: #d3c5e6;padding-left: 19.5px;padding-right: 19.5px;color: black;cursor: pointer;">
+                27<br>
+                <strong>Co</strong><br>
+                Cobolt<br>
+                </button>
+             </a>
+             </td>
+             <td>
+                <a> 
+                    <button style="background-color: #d3c5e6;padding-left: 29px;padding-right: 29px;color: black;cursor: pointer;">
+                28<br>
+                <strong>Ni</strong><br>
+                Nickel<br>
+                    </button>
+                </a>
+             </td>
+             <td>
+                <a>
+                    <button style="background-color: #d3c5e6;padding-left: 23.5px;padding-right: 23.5px;color: black;cursor: pointer;">
+                29<br>
+                <strong>Cu</strong><br>
+                Copper<br>
+                    </button>
+                </a>
+             </td>
+             <td >
+             <a>
+             <button style="background-color: #d3c5e6;padding-left: 32px;padding-right: 32px;color: black;cursor: pointer;">
+                  30<br>
+                  <strong>Zn</strong><br>
+                Zinc<br>
+             </button>
+             </a>
+             </td>
+             <td >
+                <a>
+                    <button style="background-color: #ffced4;padding-left: 14px;padding-right: 14px;color: black;cursor: pointer;">
+                31<br>
+                <strong>Ga</strong><br>
+                Gallium<br>
+                    </button>
+                </a>
+             </td>
+             <td >
+                <a>
+                    <button style="background-color: #ffced4;color: black;cursor: pointer;">
+                32<br>
+                <strong>Ge</strong><br>
+                Germanium<br>
+                    </button>
+                </a>
+             </td>
+             <td >
+                <a>
+                    <button style="background-color: #ffae93;padding-left: 23px;padding-right: 23px;color: black;cursor: pointer;">
+                33<br>
+                <strong>As</strong><br>
+                Arsenic<br>
+                    </button>
+                </a>
+             </td>
+             <td >
+                <a>
+                    <button style="background-color: #ffae93; padding-left: 15px;padding-right: 15px;color: black;cursor: pointer;">
+                34<br>
+                <strong>Se</strong><br>
+                Selenium<br>
+                    </button>
+                </a>
+             </td>
+             <td>
+                <a>
+                    <button style="background-color: #a5d6a9; padding-left: 20px;padding-right: 20px;color: black;cursor: pointer;">
+                35<br>
+                <strong>Br</strong><br>
+                Bromine<br>
+                    </button>
+                </a>
+             </td>
+             <td >
+                <a>
+                     <button style="background-color: #d58ebd;padding-left: 19px;padding-right: 19px;color: black;cursor: pointer;">
+                36<br>
+                <strong>Kr</strong><br>
+                Krypton<br>
+                     </button>
+                </a>
+             </td>
+            </tr>
+            <tr>
+                <td>
+                    <a>
+                        <button style="background-color: #ffe3b1;padding-left: 8.5px;padding-right: 8.5px;color: black;cursor: pointer;">
+                    37<br>
+                    <strong>Rb</strong><br>
+                    Rubidium<br>
+                        </button>
+                    </a>
+                 </td>
+                 <td >
+                    <a>
+                        <button style="background-color: #ffcc79;padding-left: 10px;padding-right: 10px;color: black;cursor: pointer;">
+                    38<br>
+                    <strong>Sr</strong><br>
+                    Strontium<br>
+                        </button>
+                    </a>
+                 </td>
+             <td >
+                <a>
+                    <button style="background-color: #e8ed9d;padding-left: 17px;padding-right: 17px;color: black;cursor: pointer;">
+                39<br>
+                <strong>Y</strong><br>
+                Yttrium<br>
+                    </button>
+                </a>
+             </td>
+             <td>
+                <a>
+                    <button style="background-color: #d3c5e6;padding-left: 18px;padding-right: 18px;color: black;cursor: pointer;">
+                40<br>
+                <strong>Zr</strong><br>
+                Zirconium<br>
+                    </button>
+                </a>
+             </td>
+             <td>
+                <a>
+                    <button style="background-color: #d3c5e6;padding-left: 15px;padding-right: 15px;color: black;cursor: pointer;">
+                41<br>
+                <strong>Nb</strong><br>
+                Niobium<br>
+                    </button>
+                </a>
+             </td>
+             <td >
+                <a>
+                    <button style="background-color: #d3c5e6;color: black;cursor: pointer;">
+                42<br>
+                <strong>Mo</strong><br>
+                Moylbdenum<br>
+                    </button>
+                </a>
+             </td>
+             <td>
+                <a>
+                    <button style="background-color: #d3c5e6;color: black;cursor: pointer;">
+                43<br>
+                <strong>Tc</strong><br>
+                Technetium<br>
+                    </button>
+                </a>
+             </td>
+             <td>
+                <a>
+                    <button style="background-color: #d3c5e6;color: black;cursor: pointer;">
+                44<br>
+                <strong>Ru</strong><br>
+                Ruthenium<br>
+                    </button>
+                </a>
+             </td>
+             <td>
+                <a>
+                    <button style="background-color: #d3c5e6;padding-left: 11px;padding-right: 11px;color: black;cursor: pointer;">
+                45<br>
+                <strong>Rh</strong><br>
+                Rhodium<br>
+                    </button>
+                </a>
+             </td>
+             <td >
+                <a>
+                    <button style="background-color: #d3c5e6;padding-left: 19px;padding-right: 19px;color: black;cursor: pointer;">
+                46<br>
+                <strong>Pd</strong><br>
+                Palladium<br>
+                    </button>
+                </a>
+             </td>
+             <td>
+                <a>
+                    <button style="background-color: #d3c5e6;padding-left: 30px;padding-right: 30px;color: black;cursor: pointer;">
+                47<br>
+                <strong>Ag</strong><br>
+               Siver<br>
+                    </button>
+                </a>
+             </td>
+             <td >
+                <a>
+                    <button style="background-color: #d3c5e6;padding-left: 16px;padding-right: 16px;color: black;cursor: pointer;">
+                48<br>
+                <strong>Cd</strong><br>
+                Cadmium<br>
+                    </button>
+                </a>
+             </td>
+             <td>
+                <a>
+                    <button style="background-color: #ffced4;padding-left: 17px;padding-right: 17px;color: black;cursor: pointer;">
+                49<br>
+                <strong>In</strong><br>
+                Indium<br>
+                    </button>
+                </a>
+             </td>
+             <td>
+                <a>
+                    <button style="background-color: #ffced4;padding-left: 31px;padding-right: 31px;color: black;cursor: pointer;">
+                50<br>
+                <strong>Sn</strong><br>
+                Tin<br>
+                    </button>
+                </a>
+             </td>
+             <td>
+                <a>
+                    <button style="background-color: #ffced4;padding-left: 17px;padding-right: 17px;color: black;cursor: pointer;">
+                51<br>
+                <strong>Sb</strong><br>
+                Antimony<br>
+                    </button>
+                </a>
+             </td>
+             <td>
+                <a>
+                    <button style="background-color: #ffae93;padding-left: 15px;padding-right: 15px;color: black;cursor: pointer;">
+                52<br>
+                <strong>Te</strong><br>
+                Tellurium<br>
+                    </button>
+                </a>
+             </td>
+             <td>
+                <a>
+                    <button style="background-color: #a5d6a9;padding-left: 26.5px;padding-right: 26.5px;color: black ;cursor: pointer;">
+                53<br>
+                <strong>I</strong><br>
+                Iodine
+                    </button>
+                </a>
+             </td>
+             <td>
+                <a>
+                    <button style="background-color: #d58ebd;padding-left: 22px;padding-right: 22px;color: black;cursor: pointer;">
+                54<br>
+                <strong>Xe</strong><br>
+                Xenon<br>
+                    </button>
+                </a>
+             </td>
+            </tr>
+            <tr>
+             <td>
+                <a>
+                    <button style="background-color: #ffe3b1;padding-left: 14.5px;padding-right: 14.5px;color: black;cursor: pointer;">
+                55 <br>
+                <strong>Cs</strong><br>
+            Cesium
+                    </button>
+                </a>
+             </td>
+             <td>
+                <a>
+                    <button style="background-color: #ffcc79;padding-left: 18px;padding-right: 18px;color: black;cursor: pointer;">
+                56 <br>
+                <strong>Br</strong><br>
+                Barium 
+                    </button>
+                </a>
+             </td>
+             <td>
+                <a>
+                    <button style="background-color: #e8ed9d;color: black;cursor: pointer;">
+                57<br>
+                <strong>La</strong><br>
+                Lanthanum
+                    </button>
+                </a>
+             </td>
+             <td>
+                <a>
+                    <button style="background-color: #d3c5e6;padding-left: 23px;padding-right: 23px;color: black;cursor: pointer;">
+                72 <br>
+                <strong>Hf</strong><br>
+                Hafnium
+                    </button>
+                </a>
+             </td>
+             <td>
+                <a>
+                    <button style="background-color: #d3c5e6;padding-left: 12.5px;padding-right: 12.5px;color: black;cursor: pointer;">
+                73 <br>
+                <strong>Ta</strong> <br>
+            Tantalum
+                    </button>
+                </a>
+             </td>
+             <td>
+                <a>
+                    <button style="background-color: #d3c5e6;padding-left: 17px;padding-right: 17px;color: black;cursor: pointer;">
+                74 <br>
+                <strong>W</strong><br>
+               Tungsten
+                    </button>
+                </a>
+             </td>
+             <td >
+                <a>
+                    <button style="background-color: #d3c5e6;padding-left: 14px;padding-right: 14px;color: black;cursor: pointer;">
+                75 <br>
+                <strong>Re</strong> <br>
+             Rhenium
+                    </button>
+                </a>
+             </td>
+             <td>
+                <a>
+                    <button style="background-color: #d3c5e6;padding-left: 13px;padding-right: 13px;color: black;cursor: pointer;">
+                76 <br>
+                <strong>Os</strong><br>
+             Osmium
+                    </button>
+                </a>
+             </td>
+             <td>
+                <a>
+                    <button style="background-color: #d3c5e6;padding-left: 19px;padding-right: 19px;color: black;cursor: pointer;">
+                77 <br>
+                <strong>Ir</strong><br>
+            Iridium
+                    </button>
+                </a>
+             </td>
+             <td>
+                <a>
+                    <button  style="background-color: #d3c5e6;padding-left: 22px;padding-right: 22px;color: black;cursor: pointer;">
+                78 <br>
+                <strong>Pt</strong> <br>
+             Platinum
+                    </button>
+                </a>
+             </td>
+             <td >
+                <a>
+                    <button style="background-color:#d3c5e6;padding-left: 31px;padding-right: 31px;color: black;cursor: pointer;">
+                79 <br>
+                <strong>Au</strong><br>
+             Gold
+                    </button>
+                </a>
+             </td>
+             <td>
+                <a>
+                    <button style="background-color: #d3c5e6;padding-left: 20px;padding-right: 20px;color: black;cursor: pointer;">
+                80 <br>
+                <strong>Hg</strong><br>
+             Mercury
+                    </button>
+                </a>
+             </td>
+             <td>
+                <a>
+                    <button style="background-color: #ffced4;padding-left: 11.5px;padding-right: 11.5px;color: black;cursor: pointer;">
+                81 <br>
+                <strong>Tl</strong> <br>
+              Thallium
+                    </button>
+                </a>
+             </td>
+             <td>
+                <a>
+                    <button style="background-color: #ffced4;padding-left: 25.5px;padding-right: 25.5px;color: black;cursor: pointer;">
+                82 <br>
+                <strong>Pb</strong><br>
+                Lead
+                    </button>
+                </a>
+             </td>
+             <td>
+                <a>
+                    <button style="background-color: #ffced4;padding-left: 21px;padding-right: 21px;color: black;cursor: pointer;">
+                83 <br>
+                <strong>Bi</strong><br>
+             Bismuth
+                    </button>
+                </a>
+             </td>
+             <td>
+                <a>
+                    <button style="background-color: #ffced4;padding-left: 15px;padding-right: 15px;color: black;cursor: pointer;">
+                84 <br>
+                <strong>Po</strong><br>
+             Polonium
+                    </button>
+                </a>
+             </td>
+             <td>
+                <a>
+                    <button style="background-color: #a5d6a9;padding-left: 20px;padding-right: 20px;color: black;cursor: pointer;">
+                85 <br>
+                <strong>At</strong> <br>
+             Astatine
+                    </button>
+                </a>
+             </td>
+             <td>
+                <a>
+                    <button style="background-color: #d58ebd;padding-left: 22px;padding-right: 22px;color: black;cursor: pointer;">
+                86 <br>
+                <strong>Rn</strong> <br>
+               Radon
+                    </button>
+                </a>
+             </td>
+            </tr>
+            <tr>
+             <td>
+                <a>
+                    <button style="background-color: #ffe3b1;padding-left: 9.5px;padding-right: 9.5px;color: black;cursor: pointer;">
+                87 <br>
+                <strong>Fr</strong><br>
+Francium
+                    </button>
+                </a>
+             </td>
+             <td >
+                <a>
+                    <button style="background-color: #ffcc79;padding-left: 16px;padding-right: 16px;color: black;cursor: pointer;">
+                88 <br>
+                <strong>Ra</strong><br>
+                Radium  
+                    </button>
+                </a>
+             </td>
+             <td>
+                <a>
+                    <button style="background-color: #b8eeff;padding-left: 14px;padding-right: 14px;color: black;cursor: pointer;">
+                89<BR>
+                    <strong>Ac</strong><br>
+                    Actinium
+                    </button>
+                </a>
+             </td>
+             <td>
+                <a>
+                    <button style="background-color: #d3c5e6;color: black;cursor: pointer;">
+                104 <br>
+                <strong>Rf</strong><br>
+Rutherfordium
+                    </button>
+                </a>
+             </td>
+             <td>
+                <a>
+                    <button style="background-color: #d3c5e6;padding-left: 13px;padding-right: 13px;color: black;cursor: pointer;">
+                105 <br>
+                <strong>Db</strong><br>
+Dubnium
+                    </button>
+                </a>
+             </td>
+             <td >
+                <a>
+                    <button style="background-color: #d3c5e6;padding-left: 9px;padding-right: 9px;color: black;cursor: pointer;">
+                106 <br>
+                <strong>Sg</strong><br>
+Seaborgium
+                    </button>
+                </a>
+             </td>
+             <td>
+                <a>
+                    <button style="background-color: #d3c5e6;padding-left: 16px;padding-right: 16px;color: black;cursor: pointer;">
+                107 <br>
+                <strong>Bh</strong><br>
+Bohrium
+                    </button>
+                </a>
+             </td>
+             <td>
+                <a>
+                    <button style="background-color: #d3c5e6;padding-left: 12px;padding-right: 12px;color: black;cursor: pointer;">
+                108 <br>
+                <strong>Hs</strong><br>
+Hassium
+                    </button>
+                </a>
+             </td>
+             <td>
+                <a>
+                    <button style="background-color: #d3c5e6;color: black;cursor: pointer;">
+                109 <br>
+                <strong>Mt</strong> <br>
+Meitnerium
+                    </button>
+                </a>
+             </td>
+             <td>
+                <a>
+                    <button style="background-color: #d3c5e6;color: black;cursor: pointer;">
+                110 <br>
+                <strong>Ds</strong><br>
+                Darmstadtium 
+                    </button>
+                </a>
+             </td>
+             <td>
+                <a>
+                    <button style="background-color: #d3c5e6;color: black;cursor: pointer;">
+                111 <br>
+                <strong>Rg</strong><br>
+Roentgenium
+                    </button>
+                </a>
+             </td>
+             <td>
+                <a>
+                    <button style="background-color: #d3c5e6;color: black;cursor: pointer;">
+                112 <br>
+                <strong>Cn</strong><br>
+Copernicium
+                    </button>
+                </a>
+             </td>
+             <td>
+                <a>
+                    <button style="background-color: #ffced4;color: black;cursor: pointer;">
+                113 <br>
+                <strong>Uut</strong><br>
+Ununtrium
+                    </button>
+                </a>
+             </td>
+             <td>
+                <a>
+                    <button style="background-color: #ffced4;padding-left: 11px;padding-right: 11px;color: black;cursor: pointer;">
+                114 <br>
+                <strong>Fl</strong> <br>
+                Flerovium 
+                    </button>
+                </a>
+             </td>
+             <td>
+                <a>
+                    <button  style="background-color: #ffced4;color: black;cursor: pointer;">
+                115 <br>
+                <strong>Uup</strong><br>
+Ununpentium
+                    </button>
+                </a>
+             </td>
+             <td>
+                <a>
+                    <button style="background-color: #ffced4;color: black;cursor: pointer;">
+                116 <br>
+                <strong>Lv</strong> <br>
+Livermorium
+                    </button>
+                </a>
+             </td>
+             <td>
+                <a>
+                    <button style="background-color: #a5d6a9;color: black;cursor: pointer;">
+                117 <br>
+                <strong>Uus</strong> <br>
+Ununseptium
+                    </button>
+                </a>
+             </td>
+             <td>
+                <a>
+                    <button style="background-color: #d58ebd;color: black;cursor: pointer;">
+                118 <br>
+                <strong>Uuo</strong> <br>
+                Ununoptium 
+                    </button>
+                </a> 
+             </td>
+            </tr>
+         </table>
+    </center>
+    <center>
+        <table style="margin-top: 80px; text-align: center;">
+            <tr>
+                <td >
+                    <a>
+                        <button style="background-color: #e8ed9d;padding-left: 18px;padding-right: 18px;color: black;cursor: pointer;">
+                    58 <br> 
+                    <strong>Ce</strong> <br>
+Cerium
+                        </button>
+                    </a>
+                </td>
+                <td >
+                    <a>
+                        <button style="background-color: #e8ed9d;color: black;cursor: pointer;">
+                    59 <br>
+                    <strong>Pr</strong> <br>
+                    Praseodymium 
+                        </button>
+                    </a>
+                </td>
+                <td>
+                    <a>
+                        <button style="background-color: #e8ed9d;color: black;cursor: pointer;">
+                    60 <br>
+                    <strong>Nd</strong><br>
+                    Neodymium 
+                        </button>
+                    </a> 
+                </td>
+                <td>
+                    <a>
+                        <button style="background-color: #e8ed9d;color: black;cursor: pointer;">
+                    61 <br>
+                    <strong>Pm</strong><br>
+Promethium
+                        </button>
+                    </a>
+                </td>
+                <td>
+                    <a>
+                        <button style="background-color: #e8ed9d;color: black;cursor: pointer;">
+                    62 <br>
+                    <strong>Sm</strong><br>
+Samarium
+                        </button>
+                    </a>
+                </td>
+                <td>
+                    <a>
+                        <button style="background-color: #e8ed9d;padding-left: 9px;padding-right: 9px;color: black;cursor: pointer;">
+                    63 <br>
+                    <strong>Eu</strong><br>
+Europium
+                        </button>
+                    </a>
+                </td>
+                <td>
+                    <a>
+                        <button style="background-color: #e8ed9d;color: black;cursor: pointer;">
+                    64 <br>
+                    <strong>Gd</strong><br>
+Gadolinium
+                        </button>
+                    </a>
+                </td>
+                <td >
+                    <a>
+                        <button style="background-color: #e8ed9d;padding-left: 12px;padding-right: 12px;color: black;cursor: pointer;">
+                    65 <br>
+                    <strong>Tb</strong> <br>
+Terbium
+                        </button>
+                    </a>
+                </td>
+                <td >
+                    <a>
+                        <button style="background-color: #e8ed9d;color: black;cursor: pointer;">
+                    66 <br>
+                    <strong>Dy</strong> <br>
+                    Dysprosium 
+                        </button>
+                    </a>  
+                </td>
+                <td>
+                    <a>
+                        <button style="background-color: #e8ed9d;padding-left: 15px;padding-right: 15px;color: black;cursor: pointer;">
+                    67 <br>
+                    <strong>Ho</strong><br>
+                    Holmium
+                        </button>
+                    </a>  
+                </td>
+                <td>
+                    <a>
+                        <button style="background-color: #e8ed9d;padding-left: 11px;padding-right: 11px;color: black;cursor: pointer;">
+                    68 <br>
+                    <strong>Er</strong><br>
+Erbium
+                        </button>
+                    </a>
+                </td>
+                <td>
+                    <a>
+                        <button style="background-color: #e8ed9d;padding-left: 21.5px;padding-right: 21.5px;color: black;cursor: pointer;">
+                    69 <br>
+                    <strong>Tm</strong> <br>
+Thulium
+                        </button>
+                    </a>
+                </td>
+                <td >
+                    <a>
+                        <button style="background-color: #e8ed9d;color: black;cursor: pointer;">
+                    70 <br>
+                    <strong>Yb</strong> <br>
+Ytterbium
+                        </button>
+                    </a>
+                </td>
+                <td >
+                    <a>
+                        <button style="background-color: #e8ed9d;padding-left: 16px;padding-right: 16px;color: black;cursor: pointer;">
+                    71 <br>
+                    <strong>Lu</strong><br>
+Lutetium
+                        </button>
+                    </a>
+                </td>
+
+            </tr>
+            <tr>
+                <td>
+                    <a>
+                        <button style="background-color: #b8eeff;padding-left: 16px;padding-right: 16px;color: black;cursor: pointer;">
+                    90 <br>
+                    <strong>Th</strong><br>
+                    Thorium 
+                        </button>
+                    </a>
+                </td>
+                <td >
+                    <a>
+                        <button style="background-color: #b8eeff;padding-left: 13px;padding-right: 13px;color: black;cursor: pointer;">
+                    91 <br>
+                    <strong>Pa</strong><br>
+Protactinium
+                        </button>
+                    </a>
+                </td>
+                <td>
+                    <a>
+                        <button style="background-color: #b8eeff;padding-left: 17px;padding-right: 17px;color: black;cursor: pointer;">
+                    92 <br>
+                    <strong>U</strong><br>
+                    Uranium 
+                        </button>
+                    </a>
+                </td>
+                <td>
+                    <a>
+                    <button style="background-color: #b8eeff;padding-left: 10px;padding-right: 10px;color: black;cursor: pointer;">
+                    93 <br>
+                    <strong>Np</strong> <br>
+Neptunium
+                    </button>
+                    </a>
+                </td>
+                <td >
+                    <a>
+                        <button style="background-color: #b8eeff;color: black;cursor: pointer;">
+                    94 <br>
+                    <strong>Pu</strong><br>
+Plutonium
+                        </button>
+                    </a>
+                </td>
+                <td>
+                    <a>
+                        <button  style="background-color: #b8eeff;color: black;cursor: pointer;">
+                    95 <br>
+                    <strong>Am</strong> <br>
+Americium
+                        </button>
+                    </a>
+                </td>
+                <td>
+                    <a>
+                        <button style="background-color: #b8eeff;padding-left: 19px;padding-right: 19px;color: black;cursor: pointer;">
+                    96 <br>
+                    <strong>Cm</strong><br>
+                    Curium 
+                        </button>
+                    </a>
+                </td>
+                <td >
+                    <a>
+                        <button style="background-color: #b8eeff;color: black;cursor: pointer;">
+                    97 <br>
+                    <strong>Bk</strong> <br>
+Berkelium
+                        </button>
+                </td>
+                <td>
+                    <a>
+                        <button style="background-color: #b8eeff;color: black;cursor: pointer;">
+                    98 <br>
+                    <strong>Cf</strong><br>
+Californium
+                        </button>
+                    </a>
+                </td>
+                <td>
+                    <a>
+                        <button  style="background-color: #b8eeff;color: black;cursor: pointer;">
+                    99 <br>
+                    <strong>Es</strong> <br>
+                    Einsteinium 
+                        </button>
+                    </a>
+                </td>
+                <td >
+                    <a>
+                        <button style="background-color: #b8eeff;color: black;cursor: pointer;">
+                    100 <br>
+                    <strong>Fm</strong><br>
+Fermium
+                        </button>
+                    </a>
+                </td>
+                <td>
+                    <a>
+                        <button style="background-color: #b8eeff;color: black;cursor: pointer;">
+                    101 <br>
+                    <strong>Md</strong> <br>
+Mendelevium
+                        </button>
+                    </a>
+                </td>
+                <td >
+                    <a>
+                        <button style="background-color: #b8eeff;color: black;cursor: pointer;">
+                    102 <br>
+                    <strong>No</strong> <br>
+Nobelium
+                        </button>
+                    </a>
+                </td>
+                <td>
+                    <a>
+                        <button  style="background-color: #b8eeff;color: black;cursor: pointer;">
+                    103 <br>
+                    <strong>Lr</strong><br>
+Lawrencium
+                        </button>
+                    </a>
+                </td>
+            </tr>
+        </table>
+    </center>
+</body>
+</html>
